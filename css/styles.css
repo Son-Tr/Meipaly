@@ -8,7 +8,6 @@ html,
 body {
     font-family: "Oswald", sans-serif;
     color: white;
-    /* font-size: 18px; */
 }
 
 ul {
@@ -72,9 +71,9 @@ nav li.active a {
     color: #e62b4a;
 }
 
-/* CAROUSEL */
-.carousel {
-    background-image: url(../image_Meipaly/home_slider.jpg);
+/* banner */
+.banner {
+    background-image: url(../img/home_slider.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -84,20 +83,20 @@ nav li.active a {
     align-items: center;
 }
 
-.carousel__content {
+.banner__content {
     text-align: center;
 }
 
-.carousel__content p {
+.banner__content p {
     font-size: 25px;
 }
 
-.carousel__content h1 {
+.banner__content h1 {
     font-size: 75px;
     line-height: 90px;
 }
 
-.carousel__content button {
+.banner__content button {
     font-size: 16px;
     margin-top: 20px;
     padding: 15px 25px;
@@ -108,11 +107,11 @@ nav li.active a {
 
 }
 
-.carousel__content button:hover {
+.banner__content button:hover {
     background-color: #af2239;
 }
 
-.carousel__scroll i {
+.banner__scroll i {
     margin-top: 50px;
     font-size: 30px;
 
