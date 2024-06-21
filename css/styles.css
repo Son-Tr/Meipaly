@@ -71,3 +71,64 @@ nav li:hover a {
 nav li.active a {
     color: #e62b4a;
 }
+
+/* CAROUSEL */
+.carousel {
+    background-image: url(../image_Meipaly/home_slider.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__content {
+    text-align: center;
+}
+
+.carousel__content p {
+    font-size: 25px;
+}
+
+.carousel__content h1 {
+    font-size: 75px;
+    line-height: 90px;
+}
+
+.carousel__content button {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: #e62b4a;
+    color: white;
+    border: 1px solid #e62b4a;
+
+}
+
+.carousel__content button:hover {
+    background-color: #af2239;
+}
+
+.carousel__scroll i {
+    margin-top: 50px;
+    font-size: 30px;
+
+    /* animation: < tên> < thời gian chạy> <số lần chạy> <deplay> < kiểu chạy> */
+    animation: arrowdown 1s linear 0s infinite;
+}
+
+@keyframes arrowdown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+}
