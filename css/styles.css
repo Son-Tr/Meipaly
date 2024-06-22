@@ -131,3 +131,42 @@ nav li.active a {
     }
 
 }
+
+/* SERVICES */
+.services {
+    background-color: black;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.services__container {
+    width: 75%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.services__title p:first-of-type {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e62b4a;
+}
+
+.services__title p:last-of-type {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #888888;
+}
+
+.services__title h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.services__list {
+    margin-top: 20px;
+}
+
+.services__card {
+    display: flex;
+}
