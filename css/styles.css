@@ -170,3 +170,60 @@ nav li.active a {
 .services__card {
     display: flex;
 }
+
+.services__card .services__item {
+    width: 214px;
+    height: 230px;
+    margin: 0 10px;
+    color: #848482;
+
+}
+
+.services__box{
+    width: 100%;
+    height:100%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.services__item i {
+    font-size: 50px;
+    color: #888888;
+}
+
+.services__card .services__box::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e62b4a;
+
+    width: 5px;
+    height: 0%;
+    transition: height 0.2s linear;
+}
+
+.services__card .services__box:hover:after {
+    height: 100%;
+}
+/* DOTS */
+
+.services .slick-dots{
+    bottom: -35px;
+}
+
+.services .slick-dots li button:before{
+    font-size: 3.5rem;
+    color:white;
+}
+
+.services .slick-dots li.slick-active button:before{
+    color: #e62b4a;
+}
