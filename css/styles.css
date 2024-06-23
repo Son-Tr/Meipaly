@@ -8,7 +8,7 @@ html,
 body {
     font-family: "Oswald", sans-serif;
     color: white;
-    
+
 }
 
 ul {
@@ -464,6 +464,7 @@ nav li.active a {
     .header__logo {
         font-size: 1.7rem;
     }
+
     nav li {
 
         padding: 0 14px;
@@ -475,5 +476,82 @@ nav li.active a {
     nav li {
         padding: 0 7px;
     }
+
+    /* blog */
+    .blog__content {
+        width: 85%;
+        gap: 16px;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .blog {
+        margin-top: 50px;
+    }
+
+    .blog__title h2 {
+        font-size: 40px;
+    }
+
+    .blog__content {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .blog__text {
+        left: 12px;
+        bottom: 12px;
+    }
+
+    .blog__icon {
+        right: 12px;
+        top: 12px;
+    }
+
+    .blog__text p {
+        font-size: .8rem;
+    }
+
+    .blog__text h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blog__content {
+        width: 95%;
+        gap: 8px;
+    }
+
+    .blog__text {
+        left: 6px;
+        bottom: 6px;
+    }
+
+    .blog__icon {
+        right: 6px;
+        top: 6px;
+    }
+
+    /* .blog__text p {
+        font-size: .5rem;
+    } */
+
+    .blog__text h3 {
+        font-size: .8rem;
+    }
+
+    .blog__icon i {
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .blog__title h2 {
+        font-size: 35px;
+    }
+
+}
