@@ -23,10 +23,14 @@ $(document).ready(function () {
             {
               breakpoint: 480,
               settings: {
-                centerMode: true,
-                slidesToShow: 1
+                slidesToShow: 2
               }
             }
           ]
     })
 })
+
+/* -------------------------------- fancybox -------------------------------- */
+$('.fancybox').fancybox({
+  loop:true,
+});
