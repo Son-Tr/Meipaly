@@ -34,3 +34,11 @@ $(document).ready(function () {
 $('.fancybox').fancybox({
   loop:true,
 });
+
+/* --------------------------------- countup -------------------------------- */
+$(document).ready(function (){
+  $('.counter').countUp();
+})
+
+
+
