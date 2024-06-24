@@ -458,6 +458,37 @@ nav li.active a {
     transform: translateY(0);
 }
 
+/* ---------------------------------- DATA ---------------------------------- */
+
+.data {
+    background-color: black;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.data__container {
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data__item {
+    width: 25%;
+}
+
+.data__item p:first-child {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.data__item p:last-child {
+    font-size: 20px;
+    color: #888888;
+}
+
 /* ------------------------------- responsive ------------------------------- */
 
 @media screen and (max-width: 1024px) {
