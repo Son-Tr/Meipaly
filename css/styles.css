@@ -513,9 +513,17 @@ nav li.active a {
         width: 85%;
         gap: 16px;
     }
+
+    /* ---------------------------------- data ---------------------------------- */
+    .data__container {
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+
+
+    /* ---------------------------------- blog ---------------------------------- */
     .blog {
         margin-top: 50px;
     }
@@ -546,9 +554,41 @@ nav li.active a {
     .blog__text h3 {
         font-size: 1rem;
     }
+
+    /* ---------------------------------- data ---------------------------------- */
+    .data__container {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 480px) {
+
+    /* --------------------------------- banner --------------------------------- */
+    .banner {
+        height: 620px;
+        padding-top: 130px;
+    }
+
+    .banner__content h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    /* -------------------------------- services -------------------------------- */
+    .services {
+        padding: 50px 0;
+    }
+
+
+    .services__title h2 {
+        font-size: 35px;
+    }
+
+    /* ---------------------------------- blog ---------------------------------- */
+    .blog__title h2 {
+        font-size: 35px;
+    }
+
     .blog__content {
         width: 95%;
         gap: 8px;
@@ -564,9 +604,6 @@ nav li.active a {
         top: 6px;
     }
 
-    /* .blog__text p {
-        font-size: .5rem;
-    } */
 
     .blog__text h3 {
         font-size: .8rem;
@@ -578,10 +615,35 @@ nav li.active a {
         line-height: 27px;
         font-size: 12px;
     }
+
+    /* ---------------------------------- data ---------------------------------- */
+    .data {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .data__item p:first-child {
+        font-size: 40px;
+    }
+
+    .data__item p:last-child {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+
+    /* ---------------------------------- blog ---------------------------------- */
     .blog__title h2 {
         font-size: 35px;
+    }
+
+    /* ---------------------------------- data ---------------------------------- */
+    .data__item p:first-child {
+        font-size: 37px;
+    }
+
+    .data__item p:last-child {
+        font-size: 14px;
     }
 }
