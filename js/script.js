@@ -37,7 +37,9 @@ $('.fancybox').fancybox({
 
 /* --------------------------------- countup -------------------------------- */
 $(document).ready(function (){
-  $('.counter').countUp();
+  $('.counter').counterUp({
+
+  });
 })
 
 
