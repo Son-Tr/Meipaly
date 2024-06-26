@@ -499,6 +499,33 @@ nav li.active a {
     text-align: center;
 }
 
+.video__title p:first-of-type {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e62b4a;
+}
+
+.video__title p:last-of-type {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #888888;
+}
+
+.video__title h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.video__intro {
+    width: 75%;
+    margin: 30px auto 0;
+}
+
+.video__intro video {
+    width: 100%;
+}
+
 /* ------------------------------- responsive ------------------------------- */
 
 @media screen and (max-width: 1024px) {
