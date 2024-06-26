@@ -489,6 +489,16 @@ nav li.active a {
     color: #888888;
 }
 
+/* ---------------------------------- video --------------------------------- */
+.video {
+    background-image: url(../img/bussiness_img_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 100px 0;
+    text-align: center;
+}
+
 /* ------------------------------- responsive ------------------------------- */
 
 @media screen and (max-width: 1024px) {
