@@ -602,6 +602,17 @@ nav li.active a {
     .data__container {
         width: 90%;
     }
+
+    /* ---------------------------------- video --------------------------------- */
+    .video__title h2 {
+        font-size: 40px;
+       
+    }
+
+    .video {
+        padding: 50px 0;
+    }
+    
 }
 
 @media screen and (max-width: 540px) {
@@ -684,6 +695,12 @@ nav li.active a {
     .data__item p:last-child {
         font-size: 18px;
     }
+
+     /* ---------------------------------- video --------------------------------- */
+     .video__title h2 {
+        font-size: 35px;
+       
+    }
 }
 
 @media screen and (max-width: 344px) {
@@ -705,6 +722,5 @@ nav li.active a {
     .blog__title h2 {
         font-size: 35px;
     }
-
 
 }
