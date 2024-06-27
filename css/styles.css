@@ -20,6 +20,10 @@ a {
     cursor: pointer;
 }
 
+.title-h2{
+    font-size: 50px;
+    font-weight: 400;
+}
 
 /* HEADER */
 header {
@@ -133,6 +137,8 @@ nav li.active a {
 
 }
 
+
+
 /* SERVICES */
 .services {
     background-color: black;
@@ -159,10 +165,7 @@ nav li.active a {
     color: #888888;
 }
 
-.services__title h2 {
-    font-size: 50px;
-    font-weight: 400;
-}
+
 
 .services__list {
     margin-top: 20px;
@@ -345,8 +348,7 @@ nav li.active a {
 }
 
 .blog__title h2 {
-    font-size: 50px;
-    font-weight: 400;
+  
     color: black;
 }
 
@@ -512,10 +514,7 @@ nav li.active a {
     color: #888888;
 }
 
-.video__title h2 {
-    font-size: 50px;
-    font-weight: 400;
-}
+
 
 .video__intro {
     width: 75%;
@@ -526,8 +525,71 @@ nav li.active a {
     width: 100%;
 }
 
-/* ------------------------------- responsive ------------------------------- */
+/* --------------------------------- contact -------------------------------- */
+/* CONTACT */
+.contact {
+    padding: 100px 0;
+}
 
+.contact__title {
+    text-align: center;
+}
+
+.contact__title h2 {
+    color: black;
+   
+}
+
+.contact__title p {
+    color: #888888;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.contact__content {
+    width: 70%;
+    margin: 30px auto 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 0 15px;
+}
+
+.contact__input input,.contact__input textarea{
+    width: 100%;
+    font-size: 15px;
+    padding: 1em;
+    border: 1px solid #888888;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+
+
+.contact__input button {
+    width: 100%;
+    padding: 20px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+
+    transition: all 0.5s;
+
+}
+
+.contact__input button:hover {
+    background-color: #e62b4a;
+    border-color: #e62b4a;
+}
+
+
+/* ------------------------------------ - ----------------------------------- */
+/* ------------------------------- responsive ------------------------------- */
+/* ------------------------------------ - ----------------------------------- */
 @media screen and (max-width: 1024px) {
     .header__logo {
         font-size: 1.7rem;
@@ -564,15 +626,14 @@ nav li.active a {
 }
 
 @media screen and (max-width: 768px) {
-
+    .title-h2 {
+        font-size: 40px;
+       
+    }
 
     /* ---------------------------------- blog ---------------------------------- */
     .blog {
         margin-top: 50px;
-    }
-
-    .blog__title h2 {
-        font-size: 40px;
     }
 
     .blog__content {
@@ -604,10 +665,7 @@ nav li.active a {
     }
 
     /* ---------------------------------- video --------------------------------- */
-    .video__title h2 {
-        font-size: 40px;
-       
-    }
+    
 
     .video {
         padding: 50px 0;
@@ -625,7 +683,10 @@ nav li.active a {
 }
 
 @media screen and (max-width: 480px) {
+    .title-h2{
+        font-size: 35px;
 
+    }
     /* --------------------------------- banner --------------------------------- */
     .banner {
         height: 620px;
@@ -643,14 +704,8 @@ nav li.active a {
     }
 
 
-    .services__title h2 {
-        font-size: 35px;
-    }
-
     /* ---------------------------------- blog ---------------------------------- */
-    .blog__title h2 {
-        font-size: 35px;
-    }
+
 
     .blog__content {
         width: 95%;
@@ -696,11 +751,7 @@ nav li.active a {
         font-size: 18px;
     }
 
-     /* ---------------------------------- video --------------------------------- */
-     .video__title h2 {
-        font-size: 35px;
-       
-    }
+    
 }
 
 @media screen and (max-width: 344px) {
@@ -718,9 +769,6 @@ nav li.active a {
 
 @media screen and (max-width: 320px) {
 
-    /* ---------------------------------- blog ---------------------------------- */
-    .blog__title h2 {
-        font-size: 35px;
-    }
+
 
 }
