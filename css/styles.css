@@ -630,6 +630,35 @@ footer {
     background-color: #e62b4a;
 }
 
+/* ------------------------------- back to top ------------------------------ */
+.backtotop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    
+}
+
+/* .cd-top--is-visible {
+   
+    visibility: visible;
+    opacity: 1;
+} */
+
+.backtotop i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
 
 /* ------------------------------------ - ----------------------------------- */
 /* ------------------------------- responsive ------------------------------- */

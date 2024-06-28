@@ -42,5 +42,19 @@ $(document).ready(function (){
   });
 })
 
+/* ------------------------------- back to top ------------------------------ */
+// Scroll Back to Top Button Show
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 400) {
+      document.getElementById('back-to-top').style.display = 'block';
+  } else {
+      document.getElementById('back-to-top').style.display = 'none';
+  }
+});
 
+// Click event scroll to top button
+document.getElementById('back-to-top').addEventListener('click', function(event) {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
