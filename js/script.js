@@ -36,11 +36,10 @@ $('.fancybox').fancybox({
 });
 
 /* --------------------------------- countup -------------------------------- */
-$(document).ready(function (){
-  $('.counter').counterUp({
-
+$(document).ready(function(){
+  $(".counter").counterUp({
   });
-})
+});
 
 /* ------------------------------- back to top ------------------------------ */
 // Scroll Back to Top Button Show

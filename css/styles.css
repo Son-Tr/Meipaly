@@ -744,6 +744,15 @@ footer {
         padding: 50px 0;
     }
 
+    /* --------------------------------- aboutus -------------------------------- */
+    .contact {
+        padding: 50px 0;
+      }
+      /* --------------------------------- footer --------------------------------- */
+      .footer__container {
+        width: 90%;
+        padding: 50px 0; 
+      }
 }
 
 @media screen and (max-width: 540px) {
@@ -825,6 +834,22 @@ footer {
     .data__item p:last-child {
         font-size: 18px;
     }
+     /* --------------------------------- footer --------------------------------- */
+     .footer__container {
+        width: 95%;
+      
+      }
+     
+     .footer__logo a {
+        width: 34px;
+        height: 34px;
+      }
+      .footer__logo a i {
+        line-height: 34px;
+      }
+      .footer__copy {
+        font-size: 10px;
+      }
 
 
 }
