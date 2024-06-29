@@ -18,6 +18,7 @@ ul {
 a {
     text-decoration: none;
     cursor: pointer;
+
 }
 
 .title-h2 {
@@ -76,7 +77,64 @@ nav li.active a {
     color: #e62b4a;
 }
 
-/* banner */
+.hamburger-icon {
+    display: none;
+}
+
+.icon{
+    font-size: 1.5rem; 
+    cursor: pointer;
+    transition: all 0.5s ;
+
+}
+.hidden{
+    display: none;
+}
+
+
+
+/* List header */
+.list-header{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: nabardown .7s linear 0s ;
+    transition: all 0.3s linear;
+}
+.list-header li{
+    margin: 8px 0;
+}
+
+.list-header a{
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s linear;
+}
+.list-header li:hover a{
+    color: #e62b4a;
+}
+
+.show{
+    display: flex;
+}
+.blur{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes nabardown {
+    from {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+ /* --------------------------------- banner --------------------------------- */
 .banner {
     background-image: url(../img/home_slider.jpg);
     background-size: cover;
@@ -699,9 +757,21 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+   
+
     .title-h2 {
         font-size: 40px;
 
+    }
+
+     /* --------------------------------- header --------------------------------- */
+    .header__content nav{
+        display: none;
+    }
+    
+     .hamburger-icon {
+        display: block;
+      
     }
 
     /* ---------------------------------- blog ---------------------------------- */
