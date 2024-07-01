@@ -44,7 +44,7 @@ $(document).ready(function () {
 /* ------------------------------- back to top ------------------------------ */
 // Scroll Back to Top Button Show
 window.addEventListener('scroll', function () {
-  if (window.scrollY > 400) {
+  if (window.scrollY > 300) {
     document.getElementById('back-to-top').style.display = 'block';
   } else {
     document.getElementById('back-to-top').style.display = 'none';
