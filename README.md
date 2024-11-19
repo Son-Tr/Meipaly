@@ -1,7 +1,7 @@
 # Meipaly Landing Page  
 
 ## Description  
-The Meipaly Landing Page is a fully responsive design for a fictional company. It features:  
+The Meipaly Landing Page is a fully responsive design for a company. It features:  
 - Modern animations.  
 - An easy-to-navigate layout. 
 
